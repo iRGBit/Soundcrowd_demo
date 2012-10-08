@@ -1,6 +1,6 @@
 package com.birgit.splash;
 
-import com.androidpeople.splash.R;
+import com.birgit.splash.R;
 
 import android.app.Activity;
 import android.content.Intent;

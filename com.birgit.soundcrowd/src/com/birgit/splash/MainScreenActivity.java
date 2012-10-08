@@ -2,16 +2,26 @@ package com.birgit.splash;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.Menu;
+import android.view.View;
 
 public class MainScreenActivity extends Activity {
-	/** Called when the activity is first created. */
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
 
-		TextView textView = new TextView(this);
-		textView.setText("Main Activity");
-		setContentView(textView);
-	}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+		return false;
+
+    }
+    
+    /** Called when the user clicks the Send button */
+    public void sendMessage(View view) {
+        // Do something in response to button
+
+    }
 }

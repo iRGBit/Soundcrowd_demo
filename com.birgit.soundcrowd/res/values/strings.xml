@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, Soundcrowd!</string>
     <string name="app_name">Sound Crowd</string>
+    <string name="change_me">Change Me</string>
 </resources>
